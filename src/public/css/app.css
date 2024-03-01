@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'NeueMachina-Light';
+  src: url("/fonts/Neue_Machina/NeueMachina-Light.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Regular';
+  src: url("/fonts/Neue_Machina/NeueMachina-Regular.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Medium';
+  src: url("/fonts/Neue_Machina/NeueMachina-Medium.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Bold';
+  src: url("/fonts/Neue_Machina/NeueMachina-Bold.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Ultrabold';
+  src: url("/fonts/Neue_Machina/NeueMachina-Ultrabold.otf"); }
+
+a {
+  font-family: 'NeueMachina-Regular', sans-serif;
+  font-size: 38px; }
+
+.row {
+  padding: 28px;
+  --bs-gutter-x: 0px; }
+
+h1 {
+  font-family: 'NeueMachina-Medium', sans-serif;
+  color: rgba(255, 70, 21, 0.9); }
+
+#header {
+  height: 64px;
+  border-style: solid;
+  border-width: 3px 0;
+  padding: 0 28px;
+  background-color: rgba(217, 217, 217, 0.9); }
+
+.nav {
+  display: flex;
+  justify-content: space-between; }
+
+.navbar-link {
+  height: 43px;
+  text-decoration: none;
+  color: black; }
+
+.navbar-link:hover {
+  color: rgba(255, 70, 21, 0.9); }
+
+.animation img {
+  max-width: 100%;
+  height: auto; }
