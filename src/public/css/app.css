@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'NeueMachina-Light';
   src: url("/fonts/Neue_Machina/NeueMachina-Light.otf"); }
@@ -18,24 +19,17 @@
   font-family: 'NeueMachina-Ultrabold';
   src: url("/fonts/Neue_Machina/NeueMachina-Ultrabold.otf"); }
 
-a {
-  font-family: 'NeueMachina-Regular', sans-serif;
-  font-size: 38px; }
-
-.row {
-  padding: 28px;
-  --bs-gutter-x: 0px; }
-
-h1 {
-  font-family: 'NeueMachina-Medium', sans-serif;
-  color: rgba(255, 70, 21, 0.9); }
-
 #header {
   height: 64px;
   border-style: solid;
   border-width: 3px 0;
-  padding: 0 28px;
-  background-color: rgba(217, 217, 217, 0.9); }
+  padding: 0 28px 0 32px;
+  background-color: #d9d9d9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; }
 
 .nav {
   display: flex;
@@ -47,8 +41,150 @@ h1 {
   color: black; }
 
 .navbar-link:hover {
-  color: rgba(255, 70, 21, 0.9); }
+  color: #ff4615; }
+
+.fake-header {
+  height: 64px; }
 
 .animation img {
   max-width: 100%;
+  height: auto;
+  border-style: solid;
+  border-width: 0 0 3px 0; }
+
+.menu {
+  padding: 90px 0;
+  border-style: solid;
+  border-width: 0 0 3px 0; }
+
+.menu-row {
+  text-decoration: none;
+  color: black; }
+
+.menu-row:hover {
+  color: #ff4615; }
+
+.experience {
+  height: 344px;
+  background-color: #ff4615;
+  border-style: solid;
+  border-width: 0 0 3px 0; }
+
+.ex-title {
+  display: flex;
+  justify-content: center; }
+
+.ex-title-content {
+  font-family: 'NeueMachina-Ultrabold', sans-serif;
+  font-size: 40px;
+  color: white;
+  padding: 40px 0 20px 0;
+  margin: 0px; }
+
+.icon-brand {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8px;
+  padding: 0 80px; }
+
+.icon-brand img {
+  width: 350px;
+  max-width: 100%;
   height: auto; }
+
+.footer-title-content {
+  font-family: 'NeueMachina-Medium', sans-serif;
+  font-size: 38px;
+  display: flex;
+  justify-content: center; }
+
+.companion {
+  padding: 30px 0 50px 0;
+  position: relative; }
+
+.companion-button {
+  display: flex;
+  justify-content: center; }
+
+.companion-button-content {
+  background-color: #ff4615;
+  color: white;
+  border-radius: 60px;
+  width: 400px;
+  font-family: 'NeueMachina-Medium', sans-serif;
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+  padding: 7px 0 12px 0;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease; }
+
+.companion-button-content:hover {
+  background-color: #d9d9d9;
+  color: #ff4615; }
+
+.underline {
+  width: 600px;
+  height: 3px;
+  background-color: #000;
+  position: absolute;
+  /* Đặt phần tử underline là một vị trí tuyệt đối trong phần tử cha */
+  left: 50%;
+  /* Đặt left là 50% để đưa phần tử underline vào giữa */
+  bottom: -10px;
+  /* Đặt bottom là -10px để giữa phần tử underline và phần tử companion */
+  transform: translateX(-50%);
+  /* Dịch chuyển phần tử underline điều chỉnh 50% của chiều rộng của nó sang trái */ }
+
+.container-footer.row {
+  padding: 50px 70px 0 70px; }
+
+.content-footer {
+  font-family: 'NeueMachina-Regular', sans-serif;
+  font-size: 22px;
+  text-align: justify; }
+
+.content-infor {
+  font-family: 'NeueMachina-Regular', sans-serif;
+  font-size: 28px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end; }
+
+.container-contact.row .logo {
+  display: flex;
+  align-items: flex-end; }
+
+.logo-footer {
+  width: 60px; }
+
+.container-contact.row .copyright {
+  display: flex;
+  align-items: flex-end;
+  font-family: 'NeueMachina-Regular', sans-serif;
+  font-size: 22px;
+  color: #838383; }
+
+.container-contact.row {
+  padding: 50px 70px 50px 70px;
+  display: grid;
+  grid-template-columns: 15% 45% 40%; }
+
+.contact {
+  display: flex;
+  justify-content: flex-end; }
+
+.contact a {
+  padding: 0 0 0 40px; }
+
+.contact a img {
+  width: 60px; }
+
+a {
+  font-family: 'NeueMachina-Regular', sans-serif;
+  font-size: 38px; }
+
+.row {
+  padding: 8px 28px 8px 32px;
+  --bs-gutter-x: 0px; }
