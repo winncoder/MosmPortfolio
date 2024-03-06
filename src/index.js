@@ -25,6 +25,17 @@ app.get('/', (req, res) => {
   res.render('home')
 })
 
+app.get('/info', (req, res) => {
+  res.render('info')
+})
+
+app.get('/nang_exhibition', (req, res) => {
+  res.render('nang_exhibition')
+})
+
+app.get('/1412store', (req, res) => {
+  res.render('1412store')
+})
 // // Route init
 // route(app);
 
