@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'NeueMachina-Light';
+  src: url("/fonts/Neue_Machina/NeueMachina-Light.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Regular';
+  src: url("/fonts/Neue_Machina/NeueMachina-Regular.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Medium';
+  src: url("/fonts/Neue_Machina/NeueMachina-Medium.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Bold';
+  src: url("/fonts/Neue_Machina/NeueMachina-Bold.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Ultrabold';
+  src: url("/fonts/Neue_Machina/NeueMachina-Ultrabold.otf"); }
+
+.footer-title-content {
+  font-family: 'NeueMachina-Medium', sans-serif;
+  font-size: 35px;
+  display: flex;
+  justify-content: center; }
+
+.companion {
+  padding: 30px 0 50px 0;
+  position: relative; }
+
+.companion-button {
+  display: flex;
+  justify-content: center; }
+
+.companion-button-content {
+  background-color: #ff4615;
+  color: white;
+  border-radius: 60px;
+  width: 370px;
+  font-family: 'NeueMachina-Medium', sans-serif;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  padding: 7px 0 12px 0;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease; }
+
+.companion-button-content:hover {
+  background-color: #d9d9d9;
+  color: #ff4615;
+  text-decoration: none; }
+
+.underline {
+  width: 600px;
+  height: 3px;
+  background-color: #000;
+  position: absolute;
+  /* Đặt phần tử underline là một vị trí tuyệt đối trong phần tử cha */
+  left: 50%;
+  /* Đặt left là 50% để đưa phần tử underline vào giữa */
+  bottom: -10px;
+  /* Đặt bottom là -10px để giữa phần tử underline và phần tử companion */
+  transform: translateX(-50%);
+  /* Dịch chuyển phần tử underline điều chỉnh 50% của chiều rộng của nó sang trái */ }
+
+.container-footer.row {
+  padding: 50px 70px 0 70px; }
+
+.content-footer {
+  font-family: 'NeueMachina-Regular', sans-serif;
+  font-size: 20px;
+  text-align: justify; }
+
+.content-infor {
+  font-family: 'NeueMachina-Regular', sans-serif;
+  font-size: 25px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end; }
+
+.container-contact.row .logo {
+  display: flex;
+  align-items: flex-end; }
+
+.logo-footer {
+  width: 50px; }
+
+.container-contact.row .copyright {
+  display: flex;
+  align-items: flex-end;
+  font-family: 'NeueMachina-Regular', sans-serif;
+  font-size: 20px;
+  color: #838383; }
+
+.container-contact.row {
+  padding: 50px 70px 50px 70px;
+  display: grid;
+  grid-template-columns: 15% 45% 40%; }
+
+.contact {
+  display: flex;
+  justify-content: flex-end; }
+
+.contact a {
+  padding: 0 0 0 35px; }
+
+.contact a img {
+  width: 55px; }

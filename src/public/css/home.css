@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'NeueMachina-Light';
+  src: url("/fonts/Neue_Machina/NeueMachina-Light.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Regular';
+  src: url("/fonts/Neue_Machina/NeueMachina-Regular.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Medium';
+  src: url("/fonts/Neue_Machina/NeueMachina-Medium.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Bold';
+  src: url("/fonts/Neue_Machina/NeueMachina-Bold.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Ultrabold';
+  src: url("/fonts/Neue_Machina/NeueMachina-Ultrabold.otf"); }
+
+.fake-header {
+  height: 60px; }
+
+.animation img {
+  max-width: 100%;
+  height: auto;
+  border-style: solid;
+  border-width: 0 0 3px 0; }
+
+.menu {
+  padding: 75px 0;
+  border-style: solid;
+  border-width: 0 0 3px 0; }
+
+.menu-row {
+  text-decoration: none;
+  color: black; }
+
+.menu-row:hover {
+  color: #ff4615;
+  text-decoration: none; }
+
+.col-md-2.text-end {
+  order: 3;
+  /* Đảm bảo nó sẽ được đặt ở vị trí cuối cùng */
+  margin-left: auto;
+  /* Đẩy nó sang phải */ }
+
+.experience {
+  height: 344px;
+  background-color: #ff4615;
+  border-style: solid;
+  border-width: 0 0 3px 0; }
+
+.ex-title {
+  display: flex;
+  justify-content: center; }
+
+.ex-title-content {
+  font-family: 'NeueMachina-Ultrabold', sans-serif;
+  font-size: 40px;
+  color: white;
+  padding: 40px 0 20px 0;
+  margin: 0px; }
+
+.icon-brand {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8px;
+  padding: 0 80px; }
+
+.icon-brand img {
+  width: 350px;
+  max-width: 100%;
+  height: auto; }

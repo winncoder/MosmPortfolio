@@ -1,3 +1,5 @@
+@import 'variables';
+
 .fake-header {
     height: 60px;
 }
@@ -26,6 +28,14 @@
 
 .menu-row:hover {
     color: $main-color-orance;
+    text-decoration: none;
+}
+
+
+
+.col-md-2.text-end {
+    order: 3; /* Đảm bảo nó sẽ được đặt ở vị trí cuối cùng */
+    margin-left: auto; /* Đẩy nó sang phải */
 }
 
 // experienced part

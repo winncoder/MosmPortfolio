@@ -43,6 +43,26 @@
 .navbar-link:hover {
   color: #ff4615; }
 
+@font-face {
+  font-family: 'NeueMachina-Light';
+  src: url("/fonts/Neue_Machina/NeueMachina-Light.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Regular';
+  src: url("/fonts/Neue_Machina/NeueMachina-Regular.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Medium';
+  src: url("/fonts/Neue_Machina/NeueMachina-Medium.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Bold';
+  src: url("/fonts/Neue_Machina/NeueMachina-Bold.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Ultrabold';
+  src: url("/fonts/Neue_Machina/NeueMachina-Ultrabold.otf"); }
+
 .fake-header {
   height: 60px; }
 
@@ -62,7 +82,14 @@
   color: black; }
 
 .menu-row:hover {
-  color: #ff4615; }
+  color: #ff4615;
+  text-decoration: none; }
+
+.col-md-2.text-end {
+  order: 3;
+  /* Đảm bảo nó sẽ được đặt ở vị trí cuối cùng */
+  margin-left: auto;
+  /* Đẩy nó sang phải */ }
 
 .experience {
   height: 344px;
@@ -93,6 +120,26 @@
   max-width: 100%;
   height: auto; }
 
+@font-face {
+  font-family: 'NeueMachina-Light';
+  src: url("/fonts/Neue_Machina/NeueMachina-Light.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Regular';
+  src: url("/fonts/Neue_Machina/NeueMachina-Regular.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Medium';
+  src: url("/fonts/Neue_Machina/NeueMachina-Medium.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Bold';
+  src: url("/fonts/Neue_Machina/NeueMachina-Bold.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Ultrabold';
+  src: url("/fonts/Neue_Machina/NeueMachina-Ultrabold.otf"); }
+
 .footer-title-content {
   font-family: 'NeueMachina-Medium', sans-serif;
   font-size: 35px;
@@ -122,7 +169,8 @@
 
 .companion-button-content:hover {
   background-color: #d9d9d9;
-  color: #ff4615; }
+  color: #ff4615;
+  text-decoration: none; }
 
 .underline {
   width: 600px;
@@ -184,15 +232,11 @@
 .fake-header {
   height: 60px; }
 
-#carouselExampleControls {
-  border-style: solid;
-  border-width: 0 0 3px 0; }
-
 .membersInfo img {
   max-width: 100%;
   height: auto;
   border-style: solid;
-  border-width: 0 0 3px 0; }
+  border-width: 3px 0 3px 0; }
 
 a {
   font-family: 'NeueMachina-Regular', sans-serif;

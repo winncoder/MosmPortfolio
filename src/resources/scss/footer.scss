@@ -1,3 +1,5 @@
+@import 'variables';
+
 .footer-title-content {
     font-family: 'NeueMachina-Medium', sans-serif;
     font-size: 35px;
@@ -32,6 +34,7 @@
 .companion-button-content:hover {
     background-color: $main-color-siver;
     color: $main-color-orance;
+    text-decoration: none;
 }
 
 .underline {
