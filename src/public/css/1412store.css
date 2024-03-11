@@ -1,10 +1,10 @@
 .fake-header {
   height: 60px; }
 
-.carousel-inner {
+#carouselExampleControls {
   border-style: solid;
   border-width: 0 0 3px 0; }
 
-.imgDefault img {
+.membersInfo img {
   max-width: 100%;
   height: auto; }

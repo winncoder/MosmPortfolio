@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: 'NeueMachina-Light';
   src: url("/fonts/Neue_Machina/NeueMachina-Light.otf"); }
@@ -41,17 +40,9 @@
   color: #ff4615;
   text-decoration: none; }
 
-.col-md-2.text-end {
-  order: 3;
-  /* Đảm bảo nó sẽ được đặt ở vị trí cuối cùng */
-  margin-left: auto;
-  /* Đẩy nó sang phải */ }
-
 .experience {
   height: 344px;
-  background-color: #ff4615;
-  border-style: solid;
-  border-width: 0 0 3px 0; }
+  background-color: #ff4615; }
 
 .ex-title {
   display: flex;

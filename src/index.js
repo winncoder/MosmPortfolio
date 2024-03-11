@@ -21,21 +21,32 @@ app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'resources', 'views'));
 console.log(path.join(__dirname, 'resources/views'))
 
-app.get('/', (req, res) => {
-  res.render('home')
-})
-
 app.get('/info', (req, res) => {
-  res.render('info')
-})
+  res.locals.hideFooter = true;
+  res.render('info');
+});
 
 app.get('/nang_exhibition', (req, res) => {
+  res.locals.headerColor = true;
   res.render('nang_exhibition')
 })
 
 app.get('/1412store', (req, res) => {
   res.render('1412store')
 })
+
+app.get('/linh', (req, res) => {
+  res.render('linh');
+});
+
+app.get('/bunnie', (req, res) => {
+  res.render('bunnie');
+});
+
+app.get('/', (req, res) => {
+  res.render('home')
+})
+
 // // Route init
 // route(app);
 

@@ -19,6 +19,26 @@
   font-family: 'NeueMachina-Ultrabold';
   src: url("/fonts/Neue_Machina/NeueMachina-Ultrabold.otf"); }
 
+@font-face {
+  font-family: 'NeueMachina-Light';
+  src: url("/fonts/Neue_Machina/NeueMachina-Light.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Regular';
+  src: url("/fonts/Neue_Machina/NeueMachina-Regular.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Medium';
+  src: url("/fonts/Neue_Machina/NeueMachina-Medium.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Bold';
+  src: url("/fonts/Neue_Machina/NeueMachina-Bold.otf"); }
+
+@font-face {
+  font-family: 'NeueMachina-Ultrabold';
+  src: url("/fonts/Neue_Machina/NeueMachina-Ultrabold.otf"); }
+
 #header {
   height: 64px;
   border-style: solid;
@@ -42,6 +62,9 @@
 
 .navbar-link:hover {
   color: #ff4615; }
+
+.main .header-orance {
+  background-color: #ff4615 !important; }
 
 @font-face {
   font-family: 'NeueMachina-Light';
@@ -85,17 +108,9 @@
   color: #ff4615;
   text-decoration: none; }
 
-.col-md-2.text-end {
-  order: 3;
-  /* Đảm bảo nó sẽ được đặt ở vị trí cuối cùng */
-  margin-left: auto;
-  /* Đẩy nó sang phải */ }
-
 .experience {
   height: 344px;
-  background-color: #ff4615;
-  border-style: solid;
-  border-width: 0 0 3px 0; }
+  background-color: #ff4615; }
 
 .ex-title {
   display: flex;
@@ -139,6 +154,10 @@
 @font-face {
   font-family: 'NeueMachina-Ultrabold';
   src: url("/fonts/Neue_Machina/NeueMachina-Ultrabold.otf"); }
+
+#footer {
+  border-style: solid;
+  border-width: 3px 0 0 0; }
 
 .footer-title-content {
   font-family: 'NeueMachina-Medium', sans-serif;
@@ -232,11 +251,27 @@
 .fake-header {
   height: 60px; }
 
-.membersInfo img {
+.profileIMG img {
   max-width: 100%;
-  height: auto;
+  height: auto; }
+
+.fake-header {
+  height: 60px; }
+
+.linhIMG img {
+  max-width: 100%;
+  height: auto; }
+
+.fake-header {
+  height: 60px; }
+
+.carousel-inner {
   border-style: solid;
-  border-width: 3px 0 3px 0; }
+  border-width: 0 0 3px 0; }
+
+.imgDefault img {
+  max-width: 100%;
+  height: auto; }
 
 a {
   font-family: 'NeueMachina-Regular', sans-serif;

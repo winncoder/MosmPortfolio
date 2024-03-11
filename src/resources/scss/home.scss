@@ -32,18 +32,10 @@
 }
 
 
-
-.col-md-2.text-end {
-    order: 3; /* Đảm bảo nó sẽ được đặt ở vị trí cuối cùng */
-    margin-left: auto; /* Đẩy nó sang phải */
-}
-
 // experienced part
 .experience {
     height: 344px;
     background-color: $main-color-orance;
-    border-style: solid;
-    border-width: 0 0 3px 0;
 }
 
 .ex-title {

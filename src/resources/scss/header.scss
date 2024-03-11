@@ -1,3 +1,5 @@
+@import 'variables';
+
 #header {
     height: 64px;
     border-style: solid;
@@ -10,7 +12,7 @@
     width: 100%;
     z-index: 1000;
 }
-
+    
 .nav {
     display: flex;
     justify-content: space-between;
@@ -25,3 +27,7 @@
 .navbar-link:hover {
     color: $main-color-orance;
 }
+
+.main .header-orance {
+    background-color: $main-color-orance !important;
+  }
