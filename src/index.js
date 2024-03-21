@@ -31,6 +31,14 @@ app.get('/nang_exhibition', (req, res) => {
   res.render('nang_exhibition')
 })
 
+app.get('/soi_exhibition', (req, res) => {
+  res.render('soi_exhibition');
+});
+
+app.get('/tan', (req, res) => {
+  res.render('tan')
+})
+
 app.get('/1412store', (req, res) => {
   res.render('1412store')
 })
