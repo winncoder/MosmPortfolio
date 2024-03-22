@@ -4,3 +4,42 @@
 .profileIMG img {
   max-width: 100%;
   height: auto; }
+
+.slogan {
+  font-family: 'NeueMachina-Regular', sans-serif;
+  font-size: 28px;
+  line-height: 1.1;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-20%, 20%);
+  text-align: center; }
+
+.linkIN {
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+  transform: translate(50%, 50%); }
+
+.linkIN a {
+  text-decoration: none; }
+
+.linkIN a:hover {
+  text-decoration: none; }
+
+.rowlinkIN {
+  display: flex;
+  margin-bottom: 0px; }
+
+.titleLinkIN {
+  font-family: 'NeueMachina-Medium', sans-serif;
+  font-size: 32px;
+  text-decoration: none;
+  color: black;
+  padding-right: 30px; }
+
+.bodyLinkIN {
+  font-family: 'NeueMachina-Regular', sans-serif;
+  font-size: 32px;
+  text-decoration: none;
+  color: black; }

@@ -1,0 +1,55 @@
+@import 'variables';
+
+.fake-header {
+    height: 60px;
+}
+
+.album {
+    grid-row-gap: 8px;
+    padding: 8px;
+}
+
+.album-row-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 8px;
+    justify-items: center;
+    padding-top: 8px;
+}
+
+.album-row-two {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-column-gap: 8px;
+    justify-items: center;
+    padding-top: 8px;
+}
+
+.album-row-three {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    grid-column-gap: 8px;
+    justify-items: center;
+    padding-top: 8px;
+}
+
+.itemAlbum{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.linkAlbum {
+    text-align: center;
+    padding: 30px;
+}
+
+.linkAlbum a {
+    font-family: 'NeueMachina-Light', sans-serif;
+    color: black;
+    font-size: 28px;
+}
+
+.linkAlbum a:hover {
+    color: $main-color-orance;
+}
