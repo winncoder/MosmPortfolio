@@ -23,7 +23,7 @@ console.log(path.join(__dirname, 'resources/views'))
 
 app.get('/info', (req, res) => {
   res.locals.hideFooter = true;
-  res.render('info');
+  res.render('info', { headerColor: 'info', textColor: 'black' });
 });
 
 app.get('/nang_exhibition', (req, res) => {
@@ -52,7 +52,7 @@ app.get('/bunnie', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.render('home')
+  res.render('home', { headerColor: 'home', textColor: 'black' });
 })
 
 // // Route init

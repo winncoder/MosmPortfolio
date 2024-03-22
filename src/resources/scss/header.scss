@@ -5,7 +5,7 @@
     border-style: solid;
     border-width: 3px 0;
     padding: 0 28px 0 32px;
-    background-color: $main-color-siver;
+    background-color: $main-color-orance;
     position: fixed;
     top: 0;
     left: 0;
@@ -21,13 +21,28 @@
 .navbar-link {
     height: 43px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .navbar-link:hover {
-    color: $main-color-orance;
+    color: black;
 }
 
-.main .header-orance {
-    background-color: $main-color-orance !important;
-  }
+#header.home {
+    background-color: $main-color-siver;
+}
+
+#header.info {
+    background-color: $main-color-siver;
+}
+
+#header.home .navbar-link,
+#header.info .navbar-link {
+    color: black;
+}
+
+
+#header.home .navbar-link:hover,
+#header.info .navbar-link:hover {
+    color: $main-color-orance;
+}

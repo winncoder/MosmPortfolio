@@ -23,7 +23,7 @@
   border-style: solid;
   border-width: 3px 0;
   padding: 0 28px 0 32px;
-  background-color: #d9d9d9;
+  background-color: #ff4615;
   position: fixed;
   top: 0;
   left: 0;
@@ -37,10 +37,21 @@
 .navbar-link {
   height: 43px;
   text-decoration: none;
-  color: black; }
+  color: white; }
 
 .navbar-link:hover {
-  color: #ff4615; }
+  color: black; }
 
-.main .header-orance {
-  background-color: #ff4615 !important; }
+#header.home {
+  background-color: #d9d9d9; }
+
+#header.info {
+  background-color: #d9d9d9; }
+
+#header.home .navbar-link,
+#header.info .navbar-link {
+  color: black; }
+
+#header.home .navbar-link:hover,
+#header.info .navbar-link:hover {
+  color: #ff4615; }
