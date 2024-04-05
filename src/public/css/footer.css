@@ -57,7 +57,8 @@
   text-decoration: none; }
 
 .container-footer.row {
-  padding: 50px 70px 0 70px; }
+  padding: 50px 70px 0 70px;
+  align-items: flex-end; }
 
 .content-footer {
   font-family: 'NeueMachina-Regular', sans-serif;
@@ -67,9 +68,14 @@
 .content-infor {
   font-family: 'NeueMachina-Regular', sans-serif;
   font-size: 25px;
-  display: flex;
+  display: block;
   align-items: flex-end;
   justify-content: end; }
+
+.content-infor a {
+  font-family: 'NeueMachina-Regular', sans-serif;
+  font-size: 25px;
+  color: black; }
 
 .container-contact.row .logo {
   display: flex;
