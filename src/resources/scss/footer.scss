@@ -15,6 +15,8 @@
 .companion {
     padding: 30px 0 50px 0;
     position: relative;
+    border-style: solid;
+    border-width: 0 0 3px 0;
 }
 
 .companion-button {
@@ -42,15 +44,6 @@
     text-decoration: none;
 }
 
-.underline {
-    width: 600px;
-    height: 3px;
-    background-color: #000;
-    position: absolute; /* Đặt phần tử underline là một vị trí tuyệt đối trong phần tử cha */
-    left: 50%; /* Đặt left là 50% để đưa phần tử underline vào giữa */
-    bottom: -10px; /* Đặt bottom là -10px để giữa phần tử underline và phần tử companion */
-    transform: translateX(-50%); /* Dịch chuyển phần tử underline điều chỉnh 50% của chiều rộng của nó sang trái */
-}
 
 .container-footer.row {
     padding: 50px 70px 0 70px;
