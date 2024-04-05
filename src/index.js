@@ -22,7 +22,6 @@ app.set('views', path.join(__dirname, 'resources', 'views'));
 console.log(path.join(__dirname, 'resources/views'))
 
 app.get('/info', (req, res) => {
-  res.locals.hideFooter = true;
   res.render('info', { headerColor: 'info', textColor: 'black' });
 });
 

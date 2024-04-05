@@ -49,3 +49,9 @@
 .bodyLinkIN {
     font-family: 'NeueMachina-Regular', sans-serif;
 }
+
+@media only screen and (max-width: 768px) {
+    .slogan, .linkIN {
+        display: none; // Ẩn slogan và linkIN trên thiết bị di động
+    }
+}
