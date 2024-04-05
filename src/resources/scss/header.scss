@@ -6,10 +6,8 @@
     border-width: 3px 0;
     padding: 0 28px 0 32px;
     background-color: $main-color-orance;
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
-    width: 100%;
     z-index: 1000;
 }
     
@@ -45,4 +43,12 @@
 #header.home .navbar-link:hover,
 #header.info .navbar-link:hover {
     color: $main-color-orance;
+}
+
+// Responsive design for header
+@media screen and (max-width: 768px) {
+    #header {
+        padding: 0 10px; /* Adjust padding for smaller screens */
+    }
+
 }

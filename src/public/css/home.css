@@ -66,3 +66,27 @@
   width: 350px;
   max-width: 100%;
   height: auto; }
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    padding: 20px 10px 20px 10px; }
+  .menu-row.row {
+    padding: 0; }
+  .menu-row.row div {
+    font-size: 24px; }
+  .ex-title-content {
+    font-size: 24px;
+    padding: 20px 0 10px 0; }
+  .experience {
+    height: auto;
+    padding: 10px 10px 30px 10px; }
+  .icon-brand {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 20px; }
+  .icon-brand img {
+    max-width: 100%;
+    height: auto;
+    width: 110px; } }

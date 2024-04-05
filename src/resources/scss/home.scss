@@ -64,3 +64,43 @@
     max-width: 100%;
     height: auto;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        padding: 20px 10px 20px 10px; // Điều chỉnh padding cho phù hợp với thiết bị di động
+    }
+
+    .menu-row.row {
+        padding: 0; // Điều chỉnh padding cho phù hợp với thiết bị di động
+    }
+
+    .menu-row.row div {
+        font-size: 24px;
+    }
+
+    // experience
+    .ex-title-content {
+        font-size: 24px; // Điều chỉnh kích thước font cho phù hợp với thiết bị di động
+        padding: 20px 0 10px 0; // Điều chỉnh padding cho phù hợp với thiết bị di động
+    }
+
+    .experience {
+        height: auto; // Thiết lập chiều cao tự động để phù hợp với nội dung bên trong
+        padding: 10px 10px 30px 10px; // Điều chỉnh padding cho phù hợp với thiết bị di động
+    }
+
+    .icon-brand {
+        flex-direction: row; // Sắp xếp các ảnh theo chiều ngang trên thiết bị di động
+        justify-content: center; // Canh giữa các ảnh theo chiều ngang
+        align-items: center; // Canh giữa các ảnh theo chiều dọc
+        padding: 0; // Loại bỏ padding để phù hợp với thiết bị di động
+        gap: 20px; // Khoảng cách giữa các ảnh
+    }
+
+    .icon-brand img {
+        max-width: 100%; // Ảnh sẽ co giãn để vừa với kích thước của phần tử cha
+        height: auto; // Bảo đảm tỷ lệ chiều cao đúng tự nhiên
+        width: 110px; // Điều chỉnh kích thước của các ảnh
+    }
+}

@@ -106,3 +106,55 @@
     width: 55px;
 }
 
+@media only screen and (max-width: 768px) {
+    .companion {
+        padding: 20px 10px 30px 10px; // Điều chỉnh padding cho phù hợp với thiết bị di động
+    }
+
+    .footer-title-content {
+        font-size: 24px; // Điều chỉnh kích thước font cho phù hợp với thiết bị di động
+        text-align: center; // Căn giữa văn bản
+    }
+
+    .companion-button-content {
+        font-size: 24px; // Điều chỉnh kích thước font của nút
+        width: 70%;
+    }
+
+    .container-footer.row {
+        padding: 30px 10px 0 10px; // Điều chỉnh padding cho phù hợp với thiết bị di động
+    }
+
+    .content-footer {
+        font-size: 18px; // Điều chỉnh kích thước font cho phù hợp với thiết bị di động
+    }
+
+    .content-infor {
+        font-size: 20px;
+    }
+
+
+    .container-contact.row {
+        display: block;
+        padding: 20px 10px 30px 10px; 
+        flex-direction: column; 
+    }
+
+    .container-contact.row .copyright {
+        padding: 10px 0 0 0;
+        font-size: 14px;
+    }
+
+    .contact {
+        justify-content: center; // Canh giữa các phần tử theo chiều ngang trên thiết bị di động
+        align-items: center; // Canh giữa các phần tử theo chiều dọc trên thiết bị di động
+    }
+
+    .contact a {
+        padding-left: 10px;
+    }
+
+    .contact a img {
+        width: 40px; // Điều chỉnh kích thước của biểu tượng mạng xã hội cho phù hợp với thiết bị di động
+    }
+}

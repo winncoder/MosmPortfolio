@@ -45,10 +45,8 @@
   border-width: 3px 0;
   padding: 0 28px 0 32px;
   background-color: #ff4615;
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  width: 100%;
   z-index: 1000; }
 
 .nav {
@@ -76,6 +74,11 @@
 #header.home .navbar-link:hover,
 #header.info .navbar-link:hover {
   color: #ff4615; }
+
+@media screen and (max-width: 768px) {
+  #header {
+    padding: 0 10px;
+    /* Adjust padding for smaller screens */ } }
 
 @font-face {
   font-family: 'NeueMachina-Light';
@@ -145,6 +148,30 @@
   width: 350px;
   max-width: 100%;
   height: auto; }
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    padding: 20px 10px 20px 10px; }
+  .menu-row.row {
+    padding: 0; }
+  .menu-row.row div {
+    font-size: 24px; }
+  .ex-title-content {
+    font-size: 24px;
+    padding: 20px 0 10px 0; }
+  .experience {
+    height: auto;
+    padding: 10px 10px 30px 10px; }
+  .icon-brand {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 20px; }
+  .icon-brand img {
+    max-width: 100%;
+    height: auto;
+    width: 110px; } }
 
 @font-face {
   font-family: 'NeueMachina-Light';
@@ -258,6 +285,36 @@
 
 .contact a img {
   width: 55px; }
+
+@media only screen and (max-width: 768px) {
+  .companion {
+    padding: 20px 10px 30px 10px; }
+  .footer-title-content {
+    font-size: 24px;
+    text-align: center; }
+  .companion-button-content {
+    font-size: 24px;
+    width: 70%; }
+  .container-footer.row {
+    padding: 30px 10px 0 10px; }
+  .content-footer {
+    font-size: 18px; }
+  .content-infor {
+    font-size: 20px; }
+  .container-contact.row {
+    display: block;
+    padding: 20px 10px 30px 10px;
+    flex-direction: column; }
+  .container-contact.row .copyright {
+    padding: 10px 0 0 0;
+    font-size: 14px; }
+  .contact {
+    justify-content: center;
+    align-items: center; }
+  .contact a {
+    padding-left: 10px; }
+  .contact a img {
+    width: 40px; } }
 
 .fake-header {
   height: 60px; }
