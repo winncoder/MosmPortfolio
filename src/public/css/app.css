@@ -76,8 +76,7 @@
 
 @media screen and (max-width: 768px) {
   #header {
-    padding: 0 10px;
-    /* Adjust padding for smaller screens */ } }
+    padding: 0 10px; } }
 
 @font-face {
   font-family: 'NeueMachina-Light';
@@ -98,9 +97,6 @@
 @font-face {
   font-family: 'NeueMachina-Ultrabold';
   src: url("/fonts/Neue_Machina/NeueMachina-Ultrabold.otf"); }
-
-.fake-header {
-  height: 60px; }
 
 .animation img {
   max-width: 100%;
@@ -154,7 +150,7 @@
   .menu-row.row {
     padding: 0; }
   .menu-row.row div {
-    font-size: 24px; }
+    font-size: 21px; }
   .ex-title-content {
     font-size: 24px;
     padding: 20px 0 10px 0; }
@@ -294,14 +290,28 @@
   .content-footer {
     font-size: 18px; }
   .content-infor {
+    padding: 15px 0 0 0;
     font-size: 20px; }
+  .content-infor a {
+    font-size: 20px;
+    display: flex;
+    justify-content: center; }
+  .content-infor p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center; }
   .container-contact.row {
     display: block;
     padding: 20px 10px 30px 10px;
     flex-direction: column; }
+  .logo {
+    display: flex;
+    justify-content: center; }
   .container-contact.row .copyright {
     padding: 10px 0 0 0;
-    font-size: 14px; }
+    font-size: 14px;
+    display: flex;
+    justify-content: center; }
   .contact {
     justify-content: center;
     align-items: center; }

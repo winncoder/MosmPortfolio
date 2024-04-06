@@ -56,5 +56,4 @@
 
 @media screen and (max-width: 768px) {
   #header {
-    padding: 0 10px;
-    /* Adjust padding for smaller screens */ } }
+    padding: 0 10px; } }

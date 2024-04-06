@@ -129,7 +129,19 @@
     }
 
     .content-infor {
+        padding: 15px 0 0 0;
         font-size: 20px;
+    }
+    .content-infor a {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-infor p {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
     }
 
 
@@ -140,9 +152,16 @@
         flex-direction: column; 
     }
 
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
     .container-contact.row .copyright {
         padding: 10px 0 0 0;
         font-size: 14px;
+        display: flex;
+        justify-content: center;
     }
 
     .contact {

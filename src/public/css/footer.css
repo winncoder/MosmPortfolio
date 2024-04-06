@@ -120,14 +120,28 @@
   .content-footer {
     font-size: 18px; }
   .content-infor {
+    padding: 15px 0 0 0;
     font-size: 20px; }
+  .content-infor a {
+    font-size: 20px;
+    display: flex;
+    justify-content: center; }
+  .content-infor p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center; }
   .container-contact.row {
     display: block;
     padding: 20px 10px 30px 10px;
     flex-direction: column; }
+  .logo {
+    display: flex;
+    justify-content: center; }
   .container-contact.row .copyright {
     padding: 10px 0 0 0;
-    font-size: 14px; }
+    font-size: 14px;
+    display: flex;
+    justify-content: center; }
   .contact {
     justify-content: center;
     align-items: center; }

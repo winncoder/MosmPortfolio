@@ -18,9 +18,6 @@
   font-family: 'NeueMachina-Ultrabold';
   src: url("/fonts/Neue_Machina/NeueMachina-Ultrabold.otf"); }
 
-.fake-header {
-  height: 60px; }
-
 .animation img {
   max-width: 100%;
   height: auto;
@@ -73,7 +70,7 @@
   .menu-row.row {
     padding: 0; }
   .menu-row.row div {
-    font-size: 24px; }
+    font-size: 21px; }
   .ex-title-content {
     font-size: 24px;
     padding: 20px 0 10px 0; }
