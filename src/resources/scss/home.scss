@@ -20,6 +20,13 @@
 .menu-row {
     text-decoration: none;
     color: black;
+    display: grid;
+    grid-template-columns: 42% 38% 20%;
+    padding: 8px 28px 8px 32px;
+}
+
+.menu-row div {
+    font-size: 30px;
 }
 
 .menu-row:hover {
@@ -67,12 +74,13 @@
         padding: 20px 10px 20px 10px; // Điều chỉnh padding cho phù hợp với thiết bị di động
     }
 
-    .menu-row.row {
-        padding: 0; // Điều chỉnh padding cho phù hợp với thiết bị di động
+    .menu-row {
+        padding: 0;
     }
 
-    .menu-row.row div {
-        font-size: 21px;
+    .menu-row div {
+        font-size: 13px;
+        padding: 5px 0;
     }
 
     // experience
